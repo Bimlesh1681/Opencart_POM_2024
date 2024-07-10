@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Opencart App Test Regression Suite" thread-count="2"
+	parallel="tests" verbose="4">
+
+
+	<test name="AppLogin Page Test">
+		<classes>
+			<class name="com.qa.opencart.tests.AppLoginTest" />
+		</classes>
+	</test>
+
+	<test name="MyAccounts Page Test">
+
+		<classes>
+			<class name="com.qa.opencart.tests.MyAccountsTest" />
+		</classes>
+	</test>
+
+</suite>	

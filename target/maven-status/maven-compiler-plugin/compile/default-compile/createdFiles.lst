@@ -1,0 +1,9 @@
+com\qa\opencart\pages\SearchResultsPage.class
+com\qa\opencart\pages\Register.class
+com\qa\opencart\pages\AppLogin.class
+com\qa\opencart\factory\DriverFactory.class
+com\qa\opencart\pages\ProductDetailPage.class
+com\qa\opencart\factory\OptionsManager.class
+com\qa\opencart\pages\MyAccounts.class
+com\qa\opencart\utils\ReadExcelData.class
+com\qa\opencart\appconstant\Opencart_AppConstant.class
