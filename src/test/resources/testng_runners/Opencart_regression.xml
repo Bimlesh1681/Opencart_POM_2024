@@ -4,6 +4,12 @@
 <suite name="Opencart App Test Regression Suite" thread-count="2"
 	parallel="tests" verbose="4">
 
+	<listeners>
+
+		<listener
+			class-name="com.qa.opencart.listeners.ExtentReportListener" />
+
+	</listeners>
 
 	<test name="AppLogin Page Test">
 		<classes>
