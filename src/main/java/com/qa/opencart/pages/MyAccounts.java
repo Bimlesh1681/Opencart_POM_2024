@@ -22,6 +22,7 @@ public class MyAccounts {
 
 	public String getAcctPageTitle() {
 		String title = driver.getTitle();
+		System.out.println("The title of the page is "+title);
 		return title;
 	}
 
