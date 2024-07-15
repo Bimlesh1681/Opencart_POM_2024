@@ -21,7 +21,7 @@ public class AppLogin {
 
 	public String loginPageTitle() {
 		String title = driver.getTitle();
-		System.out.println("The title of the appLogin page is "+title);
+		System.out.println("The title of the appLogin page is :"+title);
 		
 		return title;
 	}
