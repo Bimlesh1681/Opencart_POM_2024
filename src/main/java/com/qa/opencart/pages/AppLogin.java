@@ -21,6 +21,8 @@ public class AppLogin {
 
 	public String loginPageTitle() {
 		String title = driver.getTitle();
+		System.out.println("The title of the appLogin page is "+title);
+		
 		return title;
 	}
 
@@ -35,6 +37,7 @@ public class AppLogin {
 	}
 
 	public MyAccounts doLogin(String username, String pass) {
+		
 		driver.findElement(email).sendKeys(username);
 		driver.findElement(password).sendKeys(pass);
 		driver.findElement(loginBtn).click();
